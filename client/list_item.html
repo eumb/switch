@@ -1,0 +1,50 @@
+<template name="eventDetails">
+  <div class="post">
+    <div class="post-content">
+      <h3>
+        <p>
+          {{type}}
+          <span>Last update: {{lastEntry}}</span>
+          <span> At: {{updated_at}}</span>
+          <span> Temperature: {{temperature}}</span>
+          <span> Sound: {{sound}}</span>
+          <span> Smoke: {{smoke}}</span>
+          <span> Motion: {{presence}}</span>
+         </p>
+      </h3>
+
+    </div>
+  </div>
+</template>
+
+
+<template name="switchDetails">
+  <div class="post">
+    <div class="post-content">
+      <h3>
+        <p>
+          {{type}} 
+          {{switch_id}}
+          <span>Last update: {{lastEntry}}</span>
+          <span> At: {{updated_at}}</span>
+          <span> State: {{switch_state}}</span>
+          <span>{{> switchOff}}</span>
+          <!--<span>{{> switchOff2}}</span>-->
+        </p>
+      </h3>
+    </div>
+  </div>
+</template>
+
+
+<template name="switchOff">
+  <div><button type="button">Turn off (send 0)</button></div>
+</template>
+
+<template name="switchOff1">
+  <div><button type="button">Turn off1 (send 0)</button></div>
+</template>
+
+<template name="switchOff2">
+  <div><button type="button">Turn off2 (send 1)</button></div>
+</template>

@@ -1,0 +1,24 @@
+[[[[[ /var/www/switch ]]]]]
+
+=> Started proxy.
+=> Started MongoDB.
+=> Started your app.
+
+=> App running at: http://localhost:3000/
+[[[[[ /var/www/switch ]]]]]
+
+=> Started proxy.
+=> Started your app.
+
+=> App running at: http://localhost:3000/
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)=> Client modified -- refreshing (x8)=> Client modified -- refreshing (x9)=> Client modified -- refreshing (x10)=> Client modified -- refreshing (x11)=> Client modified -- refreshing (x12)
+=> Server modified -- restarting...
+Changes to your project's package version selections:
+
+meteorhacks:aggregate         added, version 1.3.0
+meteorhacks:collection-utils  added, version 1.2.0
+mongo-livedata                added, version 1.0.8
+
+                                   => Meteor server restarted
+=> Client modified -- refreshing
+=> Exited from signal: SIGKILL

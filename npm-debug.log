@@ -1,0 +1,150 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'fibers@0.6.9' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose cache add [ 'fibers@0.6.9', null ]
+5 verbose cache add name=undefined spec="fibers@0.6.9" args=["fibers@0.6.9",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'fibers@0.6.9',
+6 verbose parsed url   path: 'fibers@0.6.9',
+6 verbose parsed url   href: 'fibers@0.6.9' }
+7 verbose cache add name="fibers" spec="0.6.9" args=["fibers","0.6.9"]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '0.6.9',
+8 verbose parsed url   path: '0.6.9',
+8 verbose parsed url   href: '0.6.9' }
+9 verbose addNamed [ 'fibers', '0.6.9' ]
+10 verbose addNamed [ '0.6.9', '0.6.9' ]
+11 silly lockFile 2ca04884-fibers-0-6-9 fibers@0.6.9
+12 verbose lock fibers@0.6.9 /home/pi/.npm/2ca04884-fibers-0-6-9.lock
+13 verbose request where is /fibers
+14 verbose request registry https://registry.npmjs.org/
+15 verbose request id 53fabe0f0f619032
+16 verbose url raw /fibers
+17 verbose url resolving [ 'https://registry.npmjs.org/', './fibers' ]
+18 verbose url resolved https://registry.npmjs.org/fibers
+19 verbose request where is https://registry.npmjs.org/fibers
+20 info trying registry request attempt 1 at 19:07:37
+21 http GET https://registry.npmjs.org/fibers
+22 http 200 https://registry.npmjs.org/fibers
+23 silly registry.get cb [ 200,
+23 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly registry.get     etag: '"EVWXHE5K16HTS5BY9L958MZ0K"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=60',
+23 silly registry.get     'content-length': '54144',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     date: 'Wed, 14 Oct 2015 16:07:37 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '0',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-served-by': 'cache-fra1248-FRA',
+23 silly registry.get     'x-cache': 'HIT',
+23 silly registry.get     'x-cache-hits': '1',
+23 silly registry.get     'x-timer': 'S1444838857.821624,VS0,VE107',
+23 silly registry.get     vary: 'Accept' } ]
+24 silly lockFile 5cb7f084-pmjs-org-fibers-fibers-0-6-9-tgz https://registry.npmjs.org/fibers/-/fibers-0.6.9.tgz
+25 verbose lock https://registry.npmjs.org/fibers/-/fibers-0.6.9.tgz /home/pi/.npm/5cb7f084-pmjs-org-fibers-fibers-0-6-9-tgz.lock
+26 verbose addRemoteTarball [ 'https://registry.npmjs.org/fibers/-/fibers-0.6.9.tgz',
+26 verbose addRemoteTarball   '252d7e384113f8a8b934c2d9290598aa053350da' ]
+27 info retry fetch attempt 1 at 19:07:38
+28 verbose fetch to= /tmp/npm-8210-tGK7o2kf/registry.npmjs.org/fibers/-/fibers-0.6.9.tgz
+29 http GET https://registry.npmjs.org/fibers/-/fibers-0.6.9.tgz
+30 http 200 https://registry.npmjs.org/fibers/-/fibers-0.6.9.tgz
+31 silly lockFile 5cb7f084-pmjs-org-fibers-fibers-0-6-9-tgz https://registry.npmjs.org/fibers/-/fibers-0.6.9.tgz
+32 silly lockFile 5cb7f084-pmjs-org-fibers-fibers-0-6-9-tgz https://registry.npmjs.org/fibers/-/fibers-0.6.9.tgz
+33 silly lockFile 2ca04884-fibers-0-6-9 fibers@0.6.9
+34 silly lockFile 2ca04884-fibers-0-6-9 fibers@0.6.9
+35 silly resolved [ { name: 'fibers',
+35 silly resolved     version: '0.6.9',
+35 silly resolved     description: 'Cooperative multi-tasking for Javascript',
+35 silly resolved     keywords:
+35 silly resolved      [ 'fiber',
+35 silly resolved        'fibers',
+35 silly resolved        'coroutine',
+35 silly resolved        'thread',
+35 silly resolved        'async',
+35 silly resolved        'parallel',
+35 silly resolved        'worker',
+35 silly resolved        'future',
+35 silly resolved        'promise' ],
+35 silly resolved     homepage: 'https://github.com/laverdet/node-fibers',
+35 silly resolved     author:
+35 silly resolved      { name: 'Marcel Laverdet',
+35 silly resolved        email: 'marcel@laverdet.com',
+35 silly resolved        url: 'https://github.com/laverdet/' },
+35 silly resolved     main: 'fibers',
+35 silly resolved     scripts: { install: 'node ./build.js', test: 'node ./test.js' },
+35 silly resolved     repository:
+35 silly resolved      { type: 'git',
+35 silly resolved        url: 'git://github.com/laverdet/node-fibers.git' },
+35 silly resolved     engines: { node: '>=0.5.2' },
+35 silly resolved     _id: 'fibers@0.6.9',
+35 silly resolved     dist:
+35 silly resolved      { shasum: '252d7e384113f8a8b934c2d9290598aa053350da',
+35 silly resolved        tarball: 'http://registry.npmjs.org/fibers/-/fibers-0.6.9.tgz' },
+35 silly resolved     _npmVersion: '1.1.59',
+35 silly resolved     _npmUser: { name: 'laverdet', email: 'marcel.npm@laverdet.com' },
+35 silly resolved     maintainers: [ [Object] ],
+35 silly resolved     directories: {},
+35 silly resolved     _shasum: '252d7e384113f8a8b934c2d9290598aa053350da',
+35 silly resolved     _from: 'fibers@0.6.9',
+35 silly resolved     _resolved: 'https://registry.npmjs.org/fibers/-/fibers-0.6.9.tgz' } ]
+36 info install fibers@0.6.9 into /usr/local/lib
+37 info installOne fibers@0.6.9
+38 verbose lib/node_modules/fibers unbuild
+39 verbose tar unpack /home/pi/.npm/fibers/0.6.9/package.tgz
+40 silly lockFile c60c00aa-sr-local-lib-node-modules-fibers tar:///usr/local/lib/node_modules/fibers
+41 verbose lock tar:///usr/local/lib/node_modules/fibers /home/pi/.npm/c60c00aa-sr-local-lib-node-modules-fibers.lock
+42 silly lockFile 57279ad2--pi-npm-fibers-0-6-9-package-tgz tar:///home/pi/.npm/fibers/0.6.9/package.tgz
+43 verbose lock tar:///home/pi/.npm/fibers/0.6.9/package.tgz /home/pi/.npm/57279ad2--pi-npm-fibers-0-6-9-package-tgz.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 error Error: EACCES, mkdir '/usr/local/lib/node_modules/fibers'
+45 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/fibers']
+45 error   errno: 3,
+45 error   code: 'EACCES',
+45 error   path: '/usr/local/lib/node_modules/fibers',
+45 error   fstream_type: 'Directory',
+45 error   fstream_path: '/usr/local/lib/node_modules/fibers',
+45 error   fstream_class: 'DirWriter',
+45 error   fstream_stack:
+45 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+45 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+45 error      'Object.oncomplete (fs.js:108:15)' ] }
+46 error Please try running this command again as root/Administrator.
+47 error System Linux 4.1.7-v7+
+48 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "fibers@0.6.9"
+49 error cwd /var/www/switch
+50 error node -v v0.10.38
+51 error npm -v 1.4.28
+52 error path /usr/local/lib/node_modules/fibers
+53 error fstream_path /usr/local/lib/node_modules/fibers
+54 error fstream_type Directory
+55 error fstream_class DirWriter
+56 error code EACCES
+57 error errno 3
+58 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/fibers'
+59 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+59 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+59 error fstream_stack Object.oncomplete (fs.js:108:15)
+60 verbose exit [ 3, true ]
