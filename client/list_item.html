@@ -23,12 +23,21 @@
     <div class="post-content">
       <h3>
         <p>
+          
           {{type}} 
           {{switch_id}}
           <span>Last update: {{lastEntry}}</span>
           <span> At: {{updated_at}}</span>
           <span> State: {{switch_state}}</span>
-          <span>{{> switchOff}}</span>
+          
+         
+          <span>
+            
+            {{> switchOff}}
+          
+          </span>
+          
+        
           <!--<span>{{> switchOff2}}</span>-->
         </p>
       </h3>
@@ -38,13 +47,19 @@
 
 
 <template name="switchOff">
-  <div><button type="button">Turn off (send 0)</button></div>
-</template>
+{{showbuttons}}
+    
+    
+      
+    
+     {{#if showTheButton}}
+        <button type="button"> Turn off</button>
+      {{else}}
+          <span>
+            no button
+          </span>
+          {{/if}}
 
-<template name="switchOff1">
-  <div><button type="button">Turn off1 (send 0)</button></div>
-</template>
-
-<template name="switchOff2">
-  <div><button type="button">Turn off2 (send 1)</button></div>
+    
+    
 </template>

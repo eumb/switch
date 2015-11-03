@@ -1,0 +1,39 @@
+/*
+Template.switchOff.helpers({
+ 
+
+ /*
+  showbuttons: function () {
+  if (this.switch_state===1) {
+    //Session.set('showbutton',true);
+    console.log("show the damn button");
+    var button= document.createElement("button");
+    var node =document.createTextNode("Turn it off");
+    button.appendChild(node);
+    var element = document.getElementById("offButton");
+    element.appendChild(button);
+  }
+  
+  if (this.switch_state===0) {
+      //Session.set('showbutton',false);
+      console.log("hide the damn button");
+      //var parent = document.getElementById("buttonContainer");
+      //var child=document.getElementById("offButton");
+    var button= document.createElement("span");
+    
+    var element = document.getElementById("offButton");
+    element.appendChild(button);
+  }
+  
+ } 
+ */
+
+
+/*
+Template.switchOff.helpers({
+    showTheButton:function(){
+      console.log("got the button state");
+      return Session.get('showbutton')
+}
+});
+*/
