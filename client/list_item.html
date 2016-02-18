@@ -23,19 +23,39 @@
     <div class="post-content">
       <h3>
         <p>
-          
-          {{type}} 
-          {{switch_id}}
-          <span>Last update: {{lastEntry}}</span>
-          <span> At: {{updated_at}}</span>
-          <span> State: {{switch_state}}</span>
-          
-         
+
+         <div align="center">
           <span>
             
             {{> switchOff}}
           
           </span>
+          
+            <span>
+              
+              {{type}} 
+              {{switch_id}}
+
+            </span>
+             
+
+          </div>
+
+
+          <div>
+              <br>
+          </div>
+            
+
+                    
+          <div align="center">
+            <span><b>Last Seen:</b> {{updated_at}}</span>
+          </div>
+          
+          
+          
+         
+         
           
         
           <!--<span>{{> switchOff2}}</span>-->
@@ -53,11 +73,23 @@
       
     
      {{#if showTheButton}}
-        <button type="button"> Turn off</button>
+       
+
+    
+     <button type="button" class="button2 btn btn-lg" >
+                        <span class="swon fa fa-circle-o-notch fa-7x fa-rotate-180" aria-hidden="true">
+
+                        </span>
+      </button>      
+       
       {{else}}
-          <span>
-            no button
-          </span>
+     
+
+
+     <button type="button" class="button2 btn btn-lg" >
+                        <span class="swoff fa fa-circle-o-notch fa-7x" aria-hidden="true">
+                        </span>
+     </button> 
           {{/if}}
 
     

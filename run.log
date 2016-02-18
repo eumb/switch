@@ -1,0 +1,22 @@
+[[[[[ /var/www/webapps/switch ]]]]]
+
+=> Started proxy.
+[34mW20160218-10:39:12.242(2)? (STDERR) [39m[35m[39m
+[34mW20160218-10:39:12.244(2)? (STDERR) [39m[35m/root/.meteor/packages/meteor-tool/.1.1.10.ki0ccv++os.linux.x86_64+web.browser+web.cordova/mt-os.linux.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:278[39m
+[34mW20160218-10:39:12.244(2)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20160218-10:39:12.245(2)? (STDERR) [39m[35m						      ^[39m
+[34mW20160218-10:39:12.245(2)? (STDERR) [39m[35mError: failed to connect to [localhost:27017][39m
+=> Exited with code: 8
+[34mW20160218-10:39:20.270(2)? (STDERR) [39m[35m[39m
+[34mW20160218-10:39:20.271(2)? (STDERR) [39m[35m/root/.meteor/packages/meteor-tool/.1.1.10.ki0ccv++os.linux.x86_64+web.browser+web.cordova/mt-os.linux.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:278[39m
+[34mW20160218-10:39:20.271(2)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20160218-10:39:20.271(2)? (STDERR) [39m[35m						      ^[39m
+[34mW20160218-10:39:20.356(2)? (STDERR) [39m[35mError: failed to connect to [localhost:27017][39m
+=> Exited with code: 8
+[34mW20160218-10:39:27.613(2)? (STDERR) [39m[35m[39m
+[34mW20160218-10:39:27.614(2)? (STDERR) [39m[35m/root/.meteor/packages/meteor-tool/.1.1.10.ki0ccv++os.linux.x86_64+web.browser+web.cordova/mt-os.linux.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:278[39m
+[34mW20160218-10:39:27.614(2)? (STDERR) [39m[35m						throw(ex);[39m
+[34mW20160218-10:39:27.614(2)? (STDERR) [39m[35m						      ^[39m
+[34mW20160218-10:39:27.709(2)? (STDERR) [39m[35mError: failed to connect to [localhost:27017][39m
+=> Exited with code: 8
+=> Your application is crashing. Waiting for file change.

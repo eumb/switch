@@ -1,104 +1,0 @@
-[[[[[ /var/www/switch ]]]]]
-
-=> Started proxy.
-=> Started MongoDB.
-=> Started your app.
-
-=> App running at: http://localhost:3000/
-[[[[[ /var/www/switch ]]]]]
-
-=> Started proxy.
-=> Started your app.
-
-=> App running at: http://localhost:3000/
-=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)=> Client modified -- refreshing (x5)=> Client modified -- refreshing (x6)=> Client modified -- refreshing (x7)=> Client modified -- refreshing (x8)=> Client modified -- refreshing (x9)=> Client modified -- refreshing (x10)=> Client modified -- refreshing (x11)=> Client modified -- refreshing (x12)
-=> Server modified -- restarting...
-Changes to your project's package version selections:
-
-meteorhacks:aggregate         added, version 1.3.0
-meteorhacks:collection-utils  added, version 1.2.0
-mongo-livedata                added, version 1.0.8
-
-                                   => Meteor server restarted
-=> Client modified -- refreshing
-=> Exited from signal: SIGKILL
-[[[[[ /var/www/switch ]]]]]
-
-=> Started proxy.
-================ SPI Configuration ================
-CSN Pin  	 = CE0 (PI Hardware Driven)
-CE Pin  	 = Custom GPIO22
-Clock Speed	 = 8 Mhz
-================ NRF Configuration ================
-STATUS		 = 0x0e RX_DR=0 TX_DS=0 MAX_RT=0 RX_P_NO=7 TX_FULL=0
-RX_ADDR_P0-1	 = 0xf0f0f0f0d1 0xf0f0f0f0d2
-RX_ADDR_P2-5	 = 0xd3 0xd9 0xc5 0xc6
-TX_ADDR		 = 0xf0f0f0f0d1
-RX_PW_P0-6	 = 0x20 0x20 0x20 0x20 0x00 0x00
-EN_AA		 = 0x00
-EN_RXADDR	 = 0x0e
-RF_CH		 = 0x40
-RF_SETUP	 = 0x27
-CONFIG		 = 0x0f
-DYNPD/FEATURE	 = 0x3f 0x04
-Data Rate	 = 250KBPS
-Model		 = nRF24L01+
-CRC Length	 = 16 bits
-PA Power	 = PA_MAX
-connected ok
-100
-connected ok
-100
-connected ok
-100
-connected ok
-100
-connected ok
-100
-connected ok
-100
-=> Started your app.
-
-=> App running at: http://localhost:3000/
-connected ok
-100
-connected ok
-100
-connected ok
-100
-connected ok
-100
-connected ok
-100
-=> Client modified -- refreshing=> Client modified -- refreshing (x2)
-=> Errors prevented startup:
-   
-   While building the application:
-   client/turn_off.js:67:1: Unexpected token }
-   
-=> Your application has errors. Waiting for file change.
-=> Modified -- restarting.
-=> Meteor server restarted
-=> Errors prevented startup:
-   
-   While building the application:
-   client/turn_off.js:42:3: Unexpected token ILLEGAL
-   
-=> Your application has errors. Waiting for file change.
-Failed to record package usage.
-(This error is hidden when you are not running Meteor from a checkout.)
-Error: DDP connection timed out
-    at Object.Future.wait (/usr/local/lib/meteor/dev_bundle/lib/node_modules/fibers/future.js:398:15)
-    at new ServiceConnection (/usr/local/lib/meteor/tools/service-connection.js:85:17)
-    at connectToPackagesStatsServer (/usr/local/lib/meteor/tools/stats.js:150:10)
-    at /usr/local/lib/meteor/tools/stats.js:69:18
-    - - - - -
-    at packages/ddp/stream_client_nodejs.js:155:1
-    at [object Object]._.extend.withValue (packages/meteor/dynamics_nodejs.js:56:1)
-    at packages/meteor/timers.js:6:1
-    at runWithEnvironment (packages/meteor/dynamics_nodejs.js:108:1)
-
-
-=> Modified -- restarting.
-=> Meteor server restarted
-=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)=> Client modified -- refreshing (x4)
